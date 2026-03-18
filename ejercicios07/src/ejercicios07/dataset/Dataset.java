@@ -6,13 +6,21 @@ import java.util.List;
 public class Dataset {
 
 	public static List<Empleado> getEmpleados() {
-		return Arrays.asList(new Empleado("Ana", "IT", 3200.50, 28), new Empleado("Juan", "Ventas", 1800.00, 35),
-				new Empleado("Pedro", "Finanzas", 2900.00, 42), new Empleado("Marta", "IT", 3500.00, 31),
-				new Empleado("Luis", "RRHH", 1450.00, 25), new Empleado("Elena", "Ventas", 1950.00, 38),
-				new Empleado("Carlos", "IT", 2800.00, 27), new Empleado("Sofia", "Finanzas", 4200.00, 45),
-				new Empleado("David", "IT", 1200.00, 23), new Empleado("Lucia", "Ventas", 2100.00, 33),
-				new Empleado("Jorge", "RRHH", 1600.00, 29), new Empleado("Carmen", "Finanzas", 3100.00, 39),
-				new Empleado("Raul", "IT", 3800.00, 34), new Empleado("Alba", "Ventas", 1400.00, 26),
+		return Arrays.asList(
+				new Empleado("Ana", "IT", 3200.50, 28), 
+				new Empleado("Juan", "Ventas", 1800.00, 35),
+				new Empleado("Pedro", "Finanzas", 2900.00, 42), 
+				new Empleado("Marta", "IT", 3500.00, 31),
+				new Empleado("Luis", "RRHH", 1450.00, 25), 
+				new Empleado("Elena", "Ventas", 1950.00, 38),
+				new Empleado("Carlos", "IT", 2800.00, 27), 
+				new Empleado("Sofia", "Finanzas", 4200.00, 45),
+				new Empleado("David", "IT", 1200.00, 23), 
+				new Empleado("Lucia", "Ventas", 2100.00, 33),
+				new Empleado("Jorge", "RRHH", 1600.00, 29), 
+				new Empleado("Carmen", "Finanzas", 3100.00, 39),
+				new Empleado("Raul", "IT", 3800.00, 34), 
+				new Empleado("Alba", "Ventas", 1400.00, 26),
 				new Empleado("Diego", "RRHH", 2100.00, 41));
 	}
 
@@ -23,7 +31,8 @@ public class Dataset {
 				new Producto("Monitor 4K", "Electrónica", 350.00, 15),
 				new Producto("Silla Ergonómica", "Hogar", 199.99, 5),
 				new Producto("Mesa Escritorio", "Hogar", 120.00, 0), // Sin stock
-				new Producto("Lámpara LED", "Hogar", 15.00, 100), new Producto("Libro Java 21", "Libros", 45.00, 20),
+				new Producto("Lámpara LED", "Hogar", 15.00, 100), 
+				new Producto("Libro Java 21", "Libros", 45.00, 20),
 				new Producto("Libro Patrones", "Libros", 55.00, 12),
 				new Producto("Manzanas (1kg)", "Alimentación", 2.50, 200),
 				new Producto("Agua Mineral", "Alimentación", 1.20, 500), // Empieza por A

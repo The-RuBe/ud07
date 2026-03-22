@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 import ejercicios07.dataset.Producto;
 
-public class TrasnformacionMayus implements Function<Producto, String> {
+public class TransformacionMayus implements Function<Producto, String> {
 
 	@Override
 	public String apply(Producto t) {
